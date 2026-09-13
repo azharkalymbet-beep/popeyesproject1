@@ -16,7 +16,6 @@ A multi-page website about Popeyes fast-food restaurant built with pure HTML5. N
 - reviews.html - Customer reviews and photos
 - images/ - Self-taken photographs
 - TAG_CHECKLIST.md - HTML tags placement checklist
-- AI_LOG.md - AI interaction history
 
 ## Requirements Met
 - Pure semantic HTML5 (no external or inline CSS/JS)
