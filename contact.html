@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Popeyes">
-    <meta name="author" content="Partner Name">
+    <meta name="description" content="Contact Form for Popeyes">
+    <meta name="author" content="Akdana">
     <title>Popeyes — Contact</title>
 </head>
 <body>
@@ -23,12 +23,54 @@
     </header>
     <main>
         <section>
-            <h2>Get in Touch</h2>
-            <p>Send us a message below.</p>
+            <h2>Customer Feedback Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="username">Full Name:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                </fieldset>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+                <label for="visit-date">Visit Date:</label>
+                <input type="date" id="visit-date" name="visit-date" required><br><br>
+                
+
+              <fieldset>
+                    <legend>Your Feedback</legend>
+                    <label for="rating">Rate Us:</label>
+                    <select id="rating" name="rating">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select><br><br>
+                    <p>How did you order?</p>
+
+                    <input type="radio" id="restaurant" name="order-type" value="restaurant" required>
+                    <label for="restaurant">At the restaurant</label>
+                    <input type="radio" id="delivery" name="order-type" value="delivery">
+                    <label for="delivery">Delivery</label>
+
+
+                    <label for="comments">Message:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="30" required></textarea>
+                </fieldset><br>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
         </section>
     </main>
     <footer>
         <p>&copy; 2026 Popeyes Fan Project</p>
+        <p>Contact us:
+        <a href="For general inquiries: info@popeyes.kz ">info@popeyes.kz </a><br> |
+        <a href="phone number:+7 727 339 40 01">+7 727 339 40 01</a>
+       </p>
     </footer>
 </body>
 </html>
